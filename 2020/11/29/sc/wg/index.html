@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  
+  <title itemprop="name">微观环境 | hojun</title>
+  
+    <link rel="shortcut icon" href="/images/favicon.ico">
+  
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+SerifMerriweather|Merriweather+Sans|Source+Code+Pro|Ubuntu:400,700|Noto+Serif+SC" media="all">
+  <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+  <link rel="stylesheet" id="saukra_css-css" href="/css/style.css" type="text/css" media="all">
+  <link rel="stylesheet" href="/css/lib.min.css" media="all">
+  <link rel="stylesheet" href="/css/font.css" media="all">
+  <link rel="stylesheet" href="/css/insight.css" media="all">
+  <link rel="stylesheet" href="/css/jquery.fancybox.min.css" media="all">
+  <link rel="stylesheet" href="/css/zoom.css" media="all">
+  <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<!--   <link rel="stylesheet" id="saukra_css-css" href="https://2heng.xin/wp-content/cache/autoptimize/css/autoptimize_ad42a61f4c7d4bdd9f91afcff6b5dda5.css
+" type="text/css" media="all"> -->
+  <script>
+  /*Initial Variables*/
+  var mashiro_option = new Object();
+  var mashiro_global = new Object();
+  mashiro_option.NProgressON = true;
+  /* 
+   * 邮箱信息之类的东西可以填在这里，这些js变量基本都作用于sakura-app.js
+   * 这样的设置仅是为了方便在基于PHP开发的主题中设置js变量，既然移植到了Node上，我想或许可以精简这一逻辑吧
+   */
+  mashiro_option.email_domain = "";
+  mashiro_option.email_name = "";
+  mashiro_option.cookie_version_control = "";
+  mashiro_option.qzone_autocomplete = false;
+  mashiro_option.site_name = "销售中的心理战术";
+  mashiro_option.author_name = "";
+  mashiro_option.site_url = "";
+  mashiro_option.v_appId = "GyC3NzMvd0hT9Yyd2hYIC0MN-gzGzoHsz";
+  mashiro_option.v_appKey = "mgOpfzbkHYqU92CV4IDlAUHQ";
+  mashiro_option.mathjax = "0";
+  mashiro_option.qq_api_url = "https://api.mashiro.top/qqinfo/"; 
+  mashiro_option.qq_avatar_api_url = "https://api.mashiro.top/qqinfo/";
+
+  // mashiro_option.jsdelivr_css_src = "https://cdn.jsdelivr.net/gh/moezx/cdn@3.4.5/css/lib.min.css";
+  // mashiro_option.float_player_on = true;
+
+  /*End of Initial Variables*/
+  </script>
+  <script type="text/javascript">
+  var bg = "https://s3.ax1x.com/2020/11/29/DcecU1.jpg".split(",");
+  var bgindex = Math.floor(Math.random()*bg.length);
+  if (!!window.ActiveXObject || "ActiveXObject" in window) { //is IE?
+    alert('朋友，IE浏览器未适配哦~');
+  }
+  </script>
+  <style type="text/css">
+  .hljs-ln{border-collapse:collapse}.hljs-ln td{padding:0}.hljs-ln-n:before{content:attr(data-line-number)}
+  </style>
+  <style type="text/css">.site-top .lower nav{display:block !important;}.author-profile i,.post-like a,.post-share .show-share,.sub-text,.we-info a,span.sitename,.post-more i:hover,#pagination a:hover,.post-content a:hover,.float-content i:hover{color:#FE9600}.feature i,.download,.navigator i:hover,.links ul li:before,.ar-time i,span.ar-circle,.object,.comment .comment-reply-link,.siren-checkbox-radio:checked + .siren-checkbox-radioInput:after{background:#FE9600}::-webkit-scrollbar-thumb{background:#FE9600}.download,.navigator i:hover,.link-title,.links ul li:hover,#pagination a:hover,.comment-respond input[type='submit']:hover{border-color:#FE9600}.entry-content a:hover,.site-info a:hover,.comment h4 a,#comments-navi a.prev,#comments-navi a.next,.comment h4 a:hover,.site-top ul li a:hover,.entry-title a:hover,#archives-temp h3,span.page-numbers.current,.sorry li a:hover,.site-title a:hover,i.iconfont.js-toggle-search.iconsearch:hover,.comment-respond input[type='submit']:hover{color:#FE9600}.comments .comments-main{display:block !important;}.comments .comments-hidden{display:none !important;}background-position:center center;background-attachment:inherit;}
+  </style>
+</head>
+</html>
+<body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
+  <div class="scrollbar" id="bar">
+  </div>
+  <a href="#" class="cd-top faa-float animated"></a>
+  <section id="main-container">
+    <div class="headertop filter-dot">
+  <div id="banner_wave_1"></div>
+  <div id="banner_wave_2"></div>
+  <figure id="centerbg" class="centerbg">
+    <div class="focusinfo no-select">
+      <div class="header-tou">
+        <a href="">
+          <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6null">
+        </a>
+      </div>
+      <div class="header-info">
+        <p></p>
+        <div class="top-social_v2">
+          <li id="bg-pre">
+            <img class="flipx" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/next-b.svg">
+          </li>
+          
+          <li id="bg-next">
+            <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/next-b.svg">
+          </li>
+        </div>
+      </div>
+    </div>
+  </figure>
+  <div id="video-container" style="">
+    <video style="object-fit: fill" id="bgvideo" class="video" video-name="" src="" width="auto" preload="auto">
+    </video>
+    <div id="video-btn" class="loadvideo videolive">
+    </div>
+    <div id="video-add">
+    </div>
+    <div class="video-stu">
+    </div>
+  </div>
+  <div class="headertop-down faa-float animated" onclick="headertop_down()">
+    <span>
+      <i class="fa fa-chevron-down" aria-hidden="true">
+      </i>
+    </span>
+  </div>
+</div>
+    <header class="site-header no-select gizle sabit" role="banner">
+  <div class="site-top">
+    <div class="site-branding">
+      <span class="site-title">
+        <span class="logolink moe-mashiro">
+          <a href="/">
+            <span class="sakurasono">销售中的心理战术</span>
+            <span class="shironeko"></span>
+          </a>
+        </span>
+      </span>
+    </div>
+    <div class="searchbox search-form-submit">
+      <i class="iconfont js-toggle-search iconsearch icon-search">
+      </i>
+    </div>
+    <div id="show-nav" class="showNav mobile-fit">
+      <div class="line line1">
+      </div>
+      <div class="line line2">
+      </div>
+      <div class="line line3">
+      </div>
+    </div>
+    <div class="lower-cantiner">
+      <div class="lower">
+        <nav class="mobile-fit-control hide">
+          <ul id="menu-new" class="menu">
+            
+              <li>
+                <a href="/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-fort-awesome faa-shake" aria-hidden="true"></i>
+                    首页
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="javascript:;">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-archive faa-shake" aria-hidden="true"></i>
+                    市场
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/tags/市场营销环境/">
+                          <i class="fa fa-code" aria-hidden="true"></i>
+                          市场营销环境
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/tags/购买行为/">
+                          <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                          购买行为
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/tags/市场定位/">
+                          <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                          市场定位
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="javascript:;">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-list-ul faa-vertical" aria-hidden="true"></i>
+                    产品
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/tags/品牌包装商标/">
+                          <i class="fa fa-th-list faa-bounce" aria-hidden="true"></i>
+                          品牌包装商标
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/tags/广告/">
+                          <i class="fa fa-film faa-vertical" aria-hidden="true"></i>
+                          广告
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="javascript:;">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-list-ul fa-pencil-square-o" aria-hidden="true"></i>
+                    分销
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/tags/分销渠道/">
+                          <i class="fa fa-th-list faa-bounce" aria-hidden="true"></i>
+                          分销渠道
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/tags/定价策略/">
+                          <i class="fa fa-film faa-vertical" aria-hidden="true"></i>
+                          定价策略
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/tags/促销渠道/">
+                          <i class="fa fa-headphones" aria-hidden="true"></i>
+                          促销渠道
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <div id="page" class="site wrapper">
+      
+      <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+<div class="pattern-center-blank"></div>
+
+<div id="content" class="site-content">
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+        <div class="toc"></div>
+        <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
+        
+          <header class="entry-header">
+            <h1 class="entry-title">微观环境</h1>
+            <p class="entry-census">&nbsp;·&nbsp;2020-11-29&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p></p>
+
+            <hr>
+          </header>
+        
+        <div class="entry-content">
+          <h1 id="微观环境"><a href="#微观环境" class="headerlink" title="微观环境"></a>微观环境</h1><p>市场营销的微观环境主要是指对企业营销活动发生直接影响的组织和力量，包括企业本身、供应商、营销中介、顾客、竞争对手和社会公众。</p>
+<h1 id="企业自身"><a href="#企业自身" class="headerlink" title="企业自身"></a>企业自身</h1><p>一个企业的市场营销部门不是孤立的，它面对着许多其他的部门，这些部门之间的分工是否科学，配合是否默契，都会影响到企业的营销管理决策和营销方案的实施。因此，在制定营销计划时，营销部门要兼顾企业的其他部门，如管理高层、财务部门、研发部门、采购部门、生产部门等。所有这些相互联系的群体组成了企业的内部环境。管理高层确定企业的宗旨和目标，制定企业的总体战略和政策。营销部门必须在管理高层制定的战略计划范围之内作决策，并且营销计划在实施之前要经过其批准。同时，营销部门还必须与企业的其他部门密切配合，财务部门负责为实施营销计划筹集和分配资金；研发部门致力于设计既安全又有吸引力的产品；采购部门关心的是如何取得零配件和原材料等供应物品；生产部门负责生产出规定质量和数量的产品，等等。所有这些部门对于营销部门的计划和行动都产生影响。</p>
+<h1 id="市场营销渠道企业"><a href="#市场营销渠道企业" class="headerlink" title="市场营销渠道企业"></a>市场营销渠道企业</h1><p>市场营销渠道企业是指企业在经营过程中，为企业经营提供各种营销服务的外部组织。包括供应商、代理商、经销商、辅助商。</p>
+<ol>
+<li>供应商为企业提供所需的原材料、零部件、能源、劳动力等。</li>
+<li>经销商从事商品购销活动，并对所经营的企业产品有所有权的中间商，如批发商、零售商等。</li>
+<li>代理商指协助买卖成交，但对所经营的企业产品没有所有权的中间商，如经纪人等</li>
+<li>辅助商为企业提供运输、储存、咨询、保险、广告等，如运输公司，保险公司，广告公司，银行，咨询公司等。</li>
+</ol>
+<h1 id="市场"><a href="#市场" class="headerlink" title="市场"></a>市场</h1><p>根据购买者及其购买目的进行市场划分，包括：</p>
+<ol>
+<li>消费者市场：购买商品和服务供自己消费的个人和家庭；</li>
+<li>生产者市场：购买商品及劳务投入生产经营活动过程以赚取利润的组织；</li>
+<li>中间商市场：为转卖、获取利润而购买商品和劳务的组织；</li>
+<li>政府市场：为了履行政府职责而购买的政府机构所构成的市场。</li>
+<li>国际市场：国外的消费者、生产者、中间商、政府机构等构成的市场。</li>
+</ol>
+<h1 id="竞争者"><a href="#竞争者" class="headerlink" title="竞争者"></a>竞争者</h1><p>企业在对目标市场进行营销活动的过程中，会不可避免地遇到竞争者的挑战。企业要想在市场竞争中取得胜利，那么在满足顾客需要或欲望方面，就必须要比竞争对手做得更好。从消费需求的角度划分，企业的竞争者包括愿望竞争者、一般竞争者、产品形式竞争者和品牌竞争者。</p>
+<ol>
+<li>愿望竞争者是指提供不同产品以满足消费者目前各种不同愿望的竞争者，它的存在将使购买力的投向在不同行业或不同产业之间发生转移，从而使不同行业或产业的市场规模发生或大或小的变化。</li>
+<li>一般竞争者是指提供满足同一需求的不同产品的竞争者，它的存在将使购买力的投向在不同行业的生产经营相关产品的企业之间发生转移，其竞争程度主要取决于科技进步所带来的相关产品的多少以及相互替代的程度。在科技进步较快的情况下，企业应对一般竞争者问题予以较多的关注。</li>
+<li>产品形式竞争者是指向一家企业的目标市场提供种类相同，但质量、规格、型号、款式、包装等有所不同的产品的其他企业。</li>
+<li>品牌竞争者是指向企业的目标市场提供种类相同、产品形式也基本相同，但品牌不同的产品的其他企业。因此，在市场营销活动中，企业除了要了解市场的需要与购买者的购买决策过程外，还要全面了解竞争对手的数目、分布状况、综合能力、竞争目标、竞争策略、营销组合状况、市场占有率及其发展动向等方面的情况，从而制定出有效的竞争性营销策略。</li>
+</ol>
+<h1 id="公众"><a href="#公众" class="headerlink" title="公众"></a>公众</h1><p>公众是指对企业实现其目标的能力有实际或潜在的兴趣或影响的任何团体。企业在争取目标市场时，不仅要与对手竞争，而且它的营销活动也会影响到公众的利益，因而公众必然会关注、监督、影响和制约企业的营销环境。在通常情况下，企业所面临的公众主要有融资公众、媒介公众、政府公众、社团公众、社区公众、一般公众、内部公众。</p>
+<ol>
+<li>融资公众是指影响企业融资能力的金融机构，如银行、投资公司、保险公司等；</li>
+<li>媒介公众是指报纸、杂志、广播和电视等有广泛影响的大众传播媒体；</li>
+<li>政府公众是指与企业营销活动有关的政府机构，如税务局、工商管理局、经贸委等；</li>
+<li>社团公众是指有权监督企业，并对企业经营活动进行评论、指正的相关团体和组织，如消费者协会、环境保护组织等；</li>
+<li>社区公众是指与企业同处于某一区域的其他组织和个人；</li>
+<li>一般公众是指并不购买企业的产品，但深刻地影响着消费者对企业及其产品看法的个人；</li>
+<li>内部公众是指企业内部的全体员工，包括董事长、总经理、一般管理人员和员工。</li>
+</ol>
+<p><img src="https://s3.ax1x.com/2020/11/29/D66eiR.png" alt="D66eiR.png"><br>案例：日本丰田进入美国市场的环境分析<br>提起丰田汽车人们很容易想起“皇冠”牌小汽车和“车到山前必有路，有路就有丰田车”的广告用语。这些都是因为丰田公司如今已享有很高的知名度。然而，谁能想到30年前，当丰田首次向美国出口小汽车时，仅销售出228辆。<br>丰田首次向美国推出的产品起名叫“丰田宝贝”它的外形像个方盒子，整个产品存在着严重缺陷，发动机开起来像卡车一样响，内部装修既粗造又不舒服，灯光也非常暗。“丰田宝贝”失败后，丰田对美国市场进行大量的调查和研究，主要研究了美国经销商和消费者需要什么，不需要什么等问题。<br>丰田发现美国人把汽车作为地位和性别象征的传统倾向在减弱，其态度正变得实用化，汽车在很大程度上被看作是一种交通工具。美国人喜欢腿部活动空间大，容易驾驶且行驶平稳的美国车，但又希望能大幅度地减少拥有汽车的花费。例如，最初的购置费少、耗油少、耐用和维修方便等。丰田还发现消费者也认识到交通拥挤状况的日益恶化，因此希望能有停靠方便和转弯灵活的小型车。丰田还发现大众的成功，在很大程度上是由于该公司建立了一套卓越的服务系统。例如提供维修服务就成功地打消了顾客担心外国车买得起，用不起，需要时很难弄到零部件等顾虑。<br><img src="https://s3.ax1x.com/2020/11/29/D66nRx.png" alt="D66eiR.png"><br>通过研究分析，丰田制定了一整套打入美国市场的营销战略。其中丰田的产品战略是生产小型的，经过改装的“底特律式”小汽车。这种美国化的做法在于增加产品的可接受性，新推出的“皇冠”牌小汽车满足了各方面的要求比其他主要竞争对手大众公司的甲壳虫在发动机功率和性能上都提高了一倍，并且容易操纵、省油，且具备了小型车的各种便利。此种车外部造型优美，内部装备了所有美国人都渴望的装修，如柔软舒适的座椅、柔色的玻璃，侧壁有白圈的轮胎等，这种车仅仅作为种交通工具出口，从这个意义上说，它几乎完美无缺，就连扶手的长度和腿部活动空间的大小都是按美国人的身材设计的。丰田公司甚至对一些不大引人注目的细节也给予充分的重视，质量、可靠性、可维护性等。<br><img src="https://s3.ax1x.com/2020/11/29/D66uz6.md.png" alt="D66eiR.png"><br>分析：从心理学角度分析，丰田在质量方面满足了“客户需要”。尤其是满足了马斯洛需求层次理论的安全需要。马斯洛需求层次理论是人本主义科学的理论之一，需求层次分别是生理需求、安全需求、社交需求、尊重需求和自我实现需求。<br>第一层次：生理需求<br>生理需求也称级别最低、最具优势的需求，如：食物、水、空气、性欲、健康、睡眠、呼吸。<br>第二层次：安全需求<br>安全需求同样属于低级别的需求，其中包括对人身安全、家庭安全、财产所有性、生活稳定、工作职位保障、健康保障以及免遭痛苦、威胁或疾病等。<br>马斯洛认为，整个有机体是一个追求安全的机制，人的感受器官、效应器官、智能和其他能量主要是寻求安全的工具，甚至可以把科学和人生观都看成是满足安全需要的一部分。当然，当这种需要一旦相对满足后，也就不再成为激励因素了。<br>第三层次：社交需求<br>社交需求属于较高层次的需求，如：对友谊、爱情、隶属关系、以及性亲密的需求。<br>第四层次：尊重需求<br>尊重需求属于较高层次的需求，如：成就、信心、名声、地位、被他人尊重和晋升机会等。尊重需求既包括对成就或自我价值的个人感觉，也包括他人对自己的认可与尊重。<br>第五层次：自我实现需求<br>自我实现需求是最高层次的需求，包括针对于真善美至高人生境界获得的需求，因此前面四项需求都能满足，最高层次的需求方能相继产生，是一种衍生性需求，如：道德、公正度、接受现实能力、问题解决能力、自我实现、创造力、发挥潜能等。<br><img src="https://s3.ax1x.com/2020/11/29/D66mJ1.md.jpg" alt="D66mJ1.md.jpg"></p>
+
+        </div>
+        <!-- .entry-content -->
+        <!-- <div class="single-reward">
+          <div class="reward-open">赏
+            <div class="reward-main">
+              <ul class="reward-row">
+                <li class="alipay-code"><img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6null"></li>
+                <li class="wechat-code"><img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6null"></li>
+              </ul>
+            </div>
+          </div>
+        </div> -->
+        <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
+        <!-- <footer class="post-footer">
+          <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
+          <div class="post-tags">
+          </div>
+          <div class="post-share">
+            <div class="social-share sharehidden share-component"></div>
+            <i class="iconfont show-share icon-forward"></i>
+          </div>
+        </footer> -->
+        <!-- .entry-footer -->
+      </article>
+      <!-- #post-## -->
+      <div class="toc" style="background: none;"></div>
+      <!-- <section class="post-squares nextprev">
+        
+          
+            <div class="post-nepre full previous">
+          
+            <a href="/2020/11/29/sc/hg/" rel="prev">
+              <div class="background">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="">
+              </div>
+              <span class="label">
+              Previous Post</span>
+              <div class="info">
+                <h3>
+                宏观环境</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+        
+      </section> -->
+      
+      <section class="author-profile">
+        <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+          <a href="" class="profile gravatar"><img src="" itemprop="image" alt="" height="70" width="70"></a>
+          <div class="meta">
+            <span class="title">Author</span>
+            <h3 itemprop="name">
+            <a href="" itemprop="url" rel="author"></a>
+            </h3>
+          </div>
+        </div>
+        <hr>
+        <!-- <p><i class="iconfont icon-write"></i></p> -->
+      </section>
+    </main><!-- #main -->
+  </div><!-- #primary -->
+</div>
+
+
+
+    </div>    
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="请输入关键词..."/>
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '文章',
+            // PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+    <!-- <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 hojun<br>
+      powered_by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer> -->
+<!-- <footer id="colophon" class="site-footer" role="contentinfo">
+  <div class="site-info">
+    <div class="footertext">
+      <div class="img-preload">
+        <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/wordpress-rotating-ball-o.svg">
+        <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/disqus-preloader.svg">
+      </div>
+      <p style="color: #666666;">&copy 2018</p>
+    </div>
+    <div class="footer-device">
+    <p style="font-family: 'Ubuntu', sans-serif;">
+        <span style="color: #b9b9b9;">Theme <a href="https://github.com/honjun/hexo-theme-sakura" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Sakura</a> <i class="iconfont icon-sakura rotating" style="color: #ffc0cb;display:inline-block"></i> by <a href="https://2heng.xin/" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Mashiro</a>&<a href="https://www.hojun.cn/" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Hojun</a>, Powered by Hexo, Hosted by Coding Pages</a>
+        </span>
+      </p>
+    </div>
+  </div>
+</footer> -->
+
+
+
+<!-- <script src="/js/tocbot.js"></script> -->
+<script type="text/javascript" src="/js/lib.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script type="text/javascript" src="/js/InsightSearch.js"></script>
+<script type="text/javascript" src="/js/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="/js/zoom.min.js"></script>
+<script type="text/javascript" src="/js/sakura-app.js"></script>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='//unpkg.com/valine@1.3.4/dist/Valine.min.js'></script>
+<script src="/js/botui.js"></script>
+<!-- 不蒜子 网页计数器 -->
+<script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script> -->
+<script type="text/javascript">
+/* <![CDATA[ */
+if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+  var Poi = {"pjax":"1","movies":{"url": "https://cdn.jsdelivr.net/gh/honjun/hojun@1.2","name":"Unbroken.mp4","live":"close"},"windowheight":"fixed","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
+} else {
+  var Poi = {"pjax":"1","movies":{"url": "https://cdn.jsdelivr.net/gh/honjun/hojun@1.2","name":"Unbroken.mp4","live":"open"},"windowheight":"auto","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
+}
+/* ]]> */
+
+</script>
+<script>
+$(document).ready(function() {
+  if ($(".toc").length > 0 && document.body.clientWidth > 1200) {
+    if ($(".pattern-center").length > 0) { //有图的情况
+      tocbot.init({
+          // Where to render the table of contents.
+          tocSelector: '.toc', // 放置目录的容器
+          // Where to grab the headings to build the table of contents.
+          contentSelector: '.entry-content', // 正文内容所在
+          // Which headings to grab inside of the contentSelector element.
+          scrollSmooth: true,
+          headingSelector: 'h1, h2, h3, h4, h5', // 需要索引的标题级别
+          headingsOffset: -400,
+          scrollSmoothOffset: -85
+      });
+    } else {
+      tocbot.init({
+          // Where to render the table of contents.
+          tocSelector: '.toc', // 放置目录的容器
+          // Where to grab the headings to build the table of contents.
+          contentSelector: '.entry-content', // 正文内容所在
+          // Which headings to grab inside of the contentSelector element.
+          scrollSmooth: true,
+          headingSelector: 'h1, h2, h3, h4, h5', // 需要索引的标题级别
+          headingsOffset: -85,
+          scrollSmoothOffset: -85
+      });
+    }
+    var offsetTop = $('.toc').offset().top - 95;
+    window.onscroll = function() {
+      var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+      if (scrollTop >= offsetTop) {
+        $('.toc').addClass('toc-fixed');
+      } else {
+        $('.toc').removeClass('toc-fixed');
+      }
+    }
+  }
+});
+</script>
+
+    <div class="openNav no-select" style="height: 50px;">
+      <div class="iconflat no-select" style="width: 50px; height: 50px;">
+        <div class="icon"></div>
+      </div>
+      <div class="site-branding search-form-submit">
+        <i class="iconfont js-toggle-search iconsearch icon-search"></i>
+      </div>
+    </div>
+  </section>
+  <div id="mo-nav" class="">
+  <div class="m-avatar">
+    <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6null">
+  </div>
+  <p style="text-align: center; color: #333; font-weight: 900; font-family: 'Ubuntu', sans-serif; letter-spacing: 1.5px">销售中的心理战术</p>
+  <p style="text-align: center; word-spacing: 20px;">
+    
+  </p>
+  <ul id="menu-new-1" class="menu">
+    
+      <li>
+        <a href="/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-fort-awesome faa-shake" aria-hidden="true"></i>
+            首页
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="javascript:;">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-archive faa-shake" aria-hidden="true"></i>
+            市场
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/tags/市场营销环境/">
+                  <i class="fa fa-code" aria-hidden="true"></i>
+                  市场营销环境
+                </a>
+              </li>
+            
+              <li>
+                <a href="/tags/购买行为/">
+                  <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                  购买行为
+                </a>
+              </li>
+            
+              <li>
+                <a href="/tags/市场定位/">
+                  <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                  市场定位
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="javascript:;">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-list-ul faa-vertical" aria-hidden="true"></i>
+            产品
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/tags/品牌包装商标/">
+                  <i class="fa fa-th-list faa-bounce" aria-hidden="true"></i>
+                  品牌包装商标
+                </a>
+              </li>
+            
+              <li>
+                <a href="/tags/广告/">
+                  <i class="fa fa-film faa-vertical" aria-hidden="true"></i>
+                  广告
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="javascript:;">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-list-ul fa-pencil-square-o" aria-hidden="true"></i>
+            分销
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/tags/分销渠道/">
+                  <i class="fa fa-th-list faa-bounce" aria-hidden="true"></i>
+                  分销渠道
+                </a>
+              </li>
+            
+              <li>
+                <a href="/tags/定价策略/">
+                  <i class="fa fa-film faa-vertical" aria-hidden="true"></i>
+                  定价策略
+                </a>
+              </li>
+            
+              <li>
+                <a href="/tags/促销渠道/">
+                  <i class="fa fa-headphones" aria-hidden="true"></i>
+                  促销渠道
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+  </ul>
+  <p style="text-align: center; font-size: 13px; color: #b9b9b9;">&copy 2019 hexo-sakura</p>
+</div>
+<button onclick="topFunction()" class="mobile-cd-top" id="moblieGoTop" title="Go to top" style="display: none;"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+<!-- require MetingJS -->
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+<style>
+  .aplayer .aplayer-lrc {
+    height: 35px;
+  }
+  .aplayer .aplayer-lrc p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px !important;
+  }
+  .aplayer .aplayer-lrc p.aplayer-lrc-current{
+    color: #FF1493;
+  }
+  .aplayer.aplayer-narrow .aplayer-body{
+    left: -66px !important;
+  }
+  .aplayer.aplayer-fixed .aplayer-lrc {
+    display: none;
+  }
+  .aplayer .aplayer-lrc.aplayer-lrc-hide {
+      display:none !important;
+  }
+  .aplayer.aplayer-fixed .lrc-show {
+    display: block;
+    background: rgba(255, 255, 255, 0.8);
+  }
+</style>
+<meting-js
+
+    id="2660651585"
+
+    server="netease"
+
+    type="playlist"
+
+    fixed="true"
+
+    autoplay="false"
+
+    loop="all"
+
+    order="random"
+
+    preload="auto"
+
+    volume="0.7"
+
+    mutex="true"
+
+</meting-js>
+<script>
+  $(function(){
+    $('body').on('click', '.aplayer', function(){
+      if($('.aplayer-button').hasClass('aplayer-play')) {
+        $('.aplayer-lrc').removeClass('lrc-show');
+      } else {
+        $('.aplayer-lrc').addClass('lrc-show');
+      }
+    })
+  });
+</script>
+</body>
+</html>
